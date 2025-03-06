@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Dashboard" />
+        
+        <item
+            android:id="@+id/nav_physics"
+            android:icon="@drawable/ic_physics"
+            android:title="PhysicsWallah" />
+
+        <item
+            android:id="@+id/nav_toppers"
+            android:icon="@drawable/ic_toppers"
+            android:title="Next Toppers" />
+
+        <item
+            android:id="@+id/nav_kaksha"
+            android:icon="@drawable/ic_kaksha"
+            android:title="Apni Kaksha" />
+
+        <item
+            android:id="@+id/nav_telegram"
+            android:icon="@drawable/ic_telegram"
+            android:title="Telegram" />
+
+        <item
+            android:id="@+id/nav_stream"
+            android:icon="@drawable/ic_stream"
+            android:title="Network Stream" />
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/nav_support"
+                android:icon="@drawable/ic_support"
+                android:title="Support" />
+        </menu>
+    </item>
+</menu> 

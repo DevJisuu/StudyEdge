@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/dashboard" />
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/ic_nt_courses"
+            android:title="@string/all_courses" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_favorite_filled"
+            android:title="@string/favorites" />
+    </group>
+    
+    <item android:title="@string/categories">
+        <menu>
+            <item
+                android:id="@+id/nav_physics"
+                android:icon="@drawable/ic_physics"
+                android:title="@string/physics" />
+            <item
+                android:id="@+id/nav_toppers"
+                android:icon="@drawable/ic_toppers"
+                android:title="@string/toppers" />
+            <item
+                android:id="@+id/nav_kaksha"
+                android:icon="@drawable/ic_kaksha"
+                android:title="@string/kaksha" />
+        </menu>
+    </item>
+    
+    <item android:title="@string/connect">
+        <menu>
+            <item
+                android:id="@+id/nav_telegram"
+                android:icon="@drawable/ic_telegram"
+                android:title="@string/telegram" />
+            <item
+                android:id="@+id/nav_stream"
+                android:icon="@drawable/ic_stream"
+                android:title="@string/live_stream" />
+        </menu>
+    </item>
+</menu> 
